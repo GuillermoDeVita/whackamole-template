@@ -25,7 +25,6 @@ def main():
                     if mouse_position == mole_position:
                         mole_position = (random.randrange(0, 640, 32), random.randrange(0, 512, 32))
 
-
             screen.fill("light green")
             for i in range(0, 641, 32):
                 pygame.draw.line(screen, 'dark blue', (i, 0), (i, 512) )
